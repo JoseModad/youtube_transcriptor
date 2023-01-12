@@ -1,6 +1,6 @@
-Transcribe YouTube video with Whisper and Artificial Intelligence
+# Transcribe YouTube video with Whisper and Artificial Intelligence
 
-Requirements:
+# Requirements:
 
     -You need to have Python 3.9 installed and install the dependency for Whisper and PyTube:
 
@@ -18,10 +18,10 @@ Requirements:
 
     sudo apt update && sudo apt install ffmpeg
 
-How to run the program:
+# How to run the program:
 
-# you can also indicate the AI ​​model that Whisper will use
-# the bigger, the longer it will take to download it the first time
+    # you can also indicate the AI ​​model that Whisper will use
+    # the bigger, the longer it will take to download it the first time
 
     python3 transcript.py --video "https://www.youtube.com/watch?v=oHrjAbDanpw" --model "large"
 
